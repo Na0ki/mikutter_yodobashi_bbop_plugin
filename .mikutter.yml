@@ -2,7 +2,7 @@
 slug: :mikutter_yodobashi_bbop_plugin
 depends:
   mikutter: 3.3.0
-  plugin: []
+  plugin: [streaming]
 version: '1.0'
 author: 
 name: mikutter_yodobashi_bbop_plugin
