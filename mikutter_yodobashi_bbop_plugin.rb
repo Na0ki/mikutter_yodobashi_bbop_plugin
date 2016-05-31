@@ -23,7 +23,6 @@ Plugin.create :yodobashibbop do
         next
       end
       if m.message.to_s =~ /^@#{Service.primary.user.to_s} (yodobashi|ヨドバシ)/
-        puts 'passed if'
         # Plugin.activity :system, "#{yodobashibbop}"
         m.message.post(:message => "@#{m.message.user[:idname]} #{yodobashibbop}")
       end
